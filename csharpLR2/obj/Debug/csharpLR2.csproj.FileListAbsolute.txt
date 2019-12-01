@@ -1,0 +1,8 @@
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\bin\Debug\csharpLR2.exe.config
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\obj\Debug\csharpLR2.csprojResolveAssemblyReference.cache
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\bin\Debug\csharpLR2.exe
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\bin\Debug\csharpLR2.pdb
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\obj\Debug\csharpLR2.exe
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\obj\Debug\csharpLR2.pdb
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rest\Desktop\merge\csharpLR2\csharpLR2\bin\Debug\Newtonsoft.Json.xml
