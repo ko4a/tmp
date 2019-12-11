@@ -41,12 +41,17 @@ namespace csharpLR2
 
             if (person is Student)
             {
-                this.Students = this.Students.Where(x => arePersonsEqual(x, person));
+                List<Student> tmpList = Students.ToList();
+                tmpList.RemoveAll(x => arePersonsEqual(x, person));
+                Students = tmpList;
             }
 
             if (person is Teacher)
             {
-                this.Teachers = this.Teachers.Where(x => arePersonsEqual(x, person));
+                List<Teacher> tmpList =  Teachers.ToList();
+                tmpList.RemoveAll(x => arePersonsEqual(x, person));
+                Teachers = tmpList;
+                
             }
 
         }
@@ -61,13 +66,7 @@ namespace csharpLR2
             return this.Teachers.Where(x => x.Department.Contains(text)).OrderBy(x => x.TeacherPosition);
         }
         private bool arePersonsEqual(IPerson person1, IPerson person2){
-            if(person1.Age == person2.Age &&
-                person1.Date == person2.Date &&
-                 person1.Lastname == person2.Lastname &&
-                  person1.Name == person2.Name &&
-                   person1.Patronomic == person2.Patronomic)
-                        return true;
-            return false;
+            return person1.ToString() == person2.ToString();
         }
     }
 }
